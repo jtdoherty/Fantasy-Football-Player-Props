@@ -1,5 +1,9 @@
 import requests
 import json
+import pandas as pd
+from bs4 import BeautifulSoup
+import numpy as np
+
 
 # API URL with query parameters for event odds
 sport = 'americanfootball_nfl'  # Specify the sport
